@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Конфигурация с вашими данными
 const MOYSKLAD_API_URL = 'https://api.moysklad.ru/api/remap/1.2';
-const MOYSKLAD_TOKEN = '125720136ed9aeb760288b76614c709f590a9ec4';
+const MOYSKLAD_TOKEN = 'cd6386cffc18df197c31818ef755b186a2f3da9a';
 
 // Склады в порядке приоритета проверки: 1) Москва, 2) СПБ, 3) Интернет-магазин
 const WAREHOUSE_IDS = {
